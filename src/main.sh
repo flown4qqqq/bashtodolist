@@ -1,9 +1,10 @@
 #!/bin/bash
 
 main_dir=/usr/src/todo
+data_dir=~/.tododata
 
-inprogress_file=$main_dir/data/inprogress.td
-done_file=$main_dir/data/done.td
+inprogress_file=$data_dir/inprogress.td
+done_file=$data_dir/done.td
 
 . $main_dir/src/add.sh
 . $main_dir/src/list.sh
