@@ -17,10 +17,10 @@
 ## Использование
 1. Текущий список дел
 
-```todo list``` --- список inprogress
-```todo list -i ``` --- синоним ```todo list```
-```todo list -d ``` --- список done
-```todo list -a ``` --- все дела
+    1. ```todo list``` --- список inprogress
+    2. ```todo list -i ``` --- синоним ```todo list```
+    3. ```todo list -d ``` --- список done
+    4. ```todo list -a ``` --- все дела
 
 2. Добавить дело
 
