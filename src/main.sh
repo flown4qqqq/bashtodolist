@@ -1,6 +1,6 @@
 #!/bin/bash
 
-main_dir=~/.todo
+main_dir=/usr/src/todo
 
 inprogress_file=$main_dir/data/inprogress.td
 done_file=$main_dir/data/done.td
