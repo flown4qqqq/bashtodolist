@@ -13,6 +13,7 @@ mkdir -p $data_dir
 
 >${data_dir}/inprogress.td
 >${data_dir}/done.td
+chmod 777 $data_dir/*
 
 if [ -d "$main_dir" ]; then
     rm -rf $main_dir
