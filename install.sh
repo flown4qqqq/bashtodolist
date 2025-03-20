@@ -5,7 +5,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-user=$(who am i | awk '{print $1}')
+user=$(whoami)
 
 main_dir=/usr/src/todo
 data_dir=/home/$user/.tododata
